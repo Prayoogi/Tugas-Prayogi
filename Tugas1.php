@@ -1,10 +1,10 @@
 <?php
-function isPrime($number) {
-    if ($number <= 1) {
+function isPrime($nilai) {
+    if ($nilai <= 1) {
         return false;
     }
-    for ($i = 2; $i <= sqrt($number); $i++) {
-        if ($number % $i == 0) {
+    for ($i = 2; $i <= sqrt($nilai); $i++) {
+        if ($nilai % $i == 0) {
             return false;
         }
     }
